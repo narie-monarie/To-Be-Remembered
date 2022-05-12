@@ -57,8 +57,9 @@ wmname LG3D
 
 # run FastAPI
 uvicorn main:app --reload 
+
 # Mongodb Start
 - sudo mongod --fork --logpath /var/lib/mongodb/mongodb.log --dbpath /var/lib/mongodb
 
-#Start Psql
+# Start Psql
 systemctl start postgresql.service 
