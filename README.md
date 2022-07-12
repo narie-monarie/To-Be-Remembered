@@ -52,7 +52,8 @@ cat ~/.ssh/id_rsa.pub
 - sudo ./update-golang.sh
 
 
-#Making intellij Apps run on bspwm
+# Making intellij Apps run on bspwm
+
 wmname LG3D
 
 # run FastAPI
