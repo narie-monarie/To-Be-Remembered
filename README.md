@@ -67,6 +67,7 @@ systemctl start postgresql.service
 
 # Tiled Emacs
 bspc rule -a Emacs state=tiled
+
 go install github.com/x-motemen/gore/cmd/gore@latest
 go install github.com/stamblerre/gocode@latest
 go install golang.org/x/tools/cmd/godoc@latest
