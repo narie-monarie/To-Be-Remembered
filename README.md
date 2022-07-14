@@ -64,3 +64,6 @@ uvicorn main:app --reload
 
 # Start Psql
 systemctl start postgresql.service 
+
+# Tiled Emacs
+bspc rule -a Emacs state=tiled
