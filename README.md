@@ -47,7 +47,7 @@ cat ~/.ssh/id_rsa.pub
 - git add .
 - git commit -m 'initial commit'
 - git push origin master
-
+<hr />
 <br>
 <br>
 
@@ -56,31 +56,31 @@ cat ~/.ssh/id_rsa.pub
 - git clone https://github.com/udhos/update-golang
 - cd update-golang
 - sudo ./update-golang.sh
-
+<hr />
 <br>
 <br>
 
 # Making intellij Apps run on bspwm
 - wmname LG3D
-
+<hr />
 <br>
 <br>
 
 # run FastAPI
 uvicorn main:app --reload 
-
+<hr />
 <br>
 <br>
 
 # Mongodb Start
 - sudo mongod --fork --logpath /var/lib/mongodb/mongodb.log --dbpath /var/lib/mongodb
-
+<hr />
 <br>
 <br>
 
 # Start Psql
 systemctl start postgresql.service 
-
+<hr />
 <br>
 <br>
 
