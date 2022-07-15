@@ -1,6 +1,6 @@
 # GET PACMAN WITH UI
-wget https://raw.githubusercontent.com/excalibur1234/pacui/master/pacui
-bash pacui
+- wget https://raw.githubusercontent.com/excalibur1234/pacui/master/pacui
+- bash pacui
 
 <br>
 <br>
@@ -20,6 +20,7 @@ bash pacui
 
 sudo rm -rf /usr/local/go
 
+<br>
 <br>
 
 # OVERWRITTING INSTALLATION OF NPM
@@ -48,6 +49,7 @@ cat ~/.ssh/id_rsa.pub
 - git push origin master
 
 <br>
+<br>
 
 # updating Go
 
@@ -56,25 +58,30 @@ cat ~/.ssh/id_rsa.pub
 - sudo ./update-golang.sh
 
 <br>
+<br>
 
 # Making intellij Apps run on bspwm
 - wmname LG3D
 
+<br>
 <br>
 
 # run FastAPI
 uvicorn main:app --reload 
 
 <br>
+<br>
 
 # Mongodb Start
 - sudo mongod --fork --logpath /var/lib/mongodb/mongodb.log --dbpath /var/lib/mongodb
 
 <br>
+<br>
 
 # Start Psql
 systemctl start postgresql.service 
 
+<br>
 <br>
 
 # Tiled Emacs
