@@ -17,19 +17,20 @@ bash pacui
 <br>
 
 # REMOVING GO TO UPDATE
+
 sudo rm -rf /usr/local/go
 
 <br>
-<br>
 
 # OVERWRITTING INSTALLATION OF NPM
-pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'
-pacman --overwrite "*" -S npm 
+- pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'
+- pacman --overwrite "*" -S npm 
 
 <br>
 <br>
 
 # generating ssh
+
 ssh-keygen -t rsa -C "{email}"
 <br>
 cat ~/.ssh/id_rsa.pub 
@@ -46,25 +47,35 @@ cat ~/.ssh/id_rsa.pub
 - git commit -m 'initial commit'
 - git push origin master
 
-#updating Go
+<br>
+
+# updating Go
 
 - git clone https://github.com/udhos/update-golang
 - cd update-golang
 - sudo ./update-golang.sh
 
+<br>
 
 # Making intellij Apps run on bspwm
+- wmname LG3D
 
-wmname LG3D
+<br>
 
 # run FastAPI
 uvicorn main:app --reload 
 
+<br>
+
 # Mongodb Start
 - sudo mongod --fork --logpath /var/lib/mongodb/mongodb.log --dbpath /var/lib/mongodb
 
+<br>
+
 # Start Psql
 systemctl start postgresql.service 
+
+<br>
 
 # Tiled Emacs
 bspc rule -a Emacs state=tiled
