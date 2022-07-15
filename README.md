@@ -24,6 +24,7 @@ sudo rm -rf /usr/local/go
 
 # OVERWRITTING INSTALLATION OF NPM
 pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'
+pacman --overwrite "*" -S npm 
 
 <br>
 <br>
