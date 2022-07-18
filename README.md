@@ -2,8 +2,7 @@
 - wget https://raw.githubusercontent.com/excalibur1234/pacui/master/pacui
 - bash pacui
 
-<br>
-<br>
+<hr/>
 
 # CONFIRM LINUX KEYRING
 - sudo rm -r /etc/pacman.d/gnupg
