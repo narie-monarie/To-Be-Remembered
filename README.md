@@ -94,3 +94,8 @@ bspc rule -a Emacs state=tiled
 - go install golang.org/x/tools/cmd/guru@latest
 - go install github.com/cweill/gotests/gotests@latest
 - go install github.com/fatih/gomodifytags@latest
+
+
+#ASP
+sudo pacman -S aspnet-runtime
+
