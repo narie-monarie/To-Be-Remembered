@@ -99,3 +99,5 @@ bspc rule -a Emacs state=tiled
 #ASP
 sudo pacman -S aspnet-runtime
 
+## Remove visual Bell
+rmmod pcspkr
