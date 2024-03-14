@@ -35,9 +35,7 @@ sudo rm -rf /usr/local/go
 # generating ssh
 ```sh
 ssh-keygen -t rsa -C "{email}"
-<br>
 cat ~/.ssh/id_rsa.pub 
-<hr />
 ```
 <br>
 <br>
